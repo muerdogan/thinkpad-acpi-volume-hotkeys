@@ -8,3 +8,4 @@ This bash script fixes the issue while sound buttons work but they don't activat
 - to make executable >>  "chmod u+x /etc/rc.local"  or "chmod u+x /etc/init.d/boot.local"
 
 Tested on Debian 10, Ubuntu 18.04 and OpenSuse 14 Leap on XFCE
+Tested machines : IBM ThinkPad X2x, X3x, X4x, X6x(s), T23, T4x, T60
