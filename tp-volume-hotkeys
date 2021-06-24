@@ -1,0 +1,5 @@
+#!/bin/sh
+if [ -r /sys/devices/platform/thinkpad_acpi/hotkey_all_mask ]; then
+        echo "$0: cp /sys/devices/platform/thinkpad_acpi/hotkey_all_mask  /sys/devices/platform/thinkpad_acpi/hotkey_mask"
+        /bin/cp /sys/devices/platform/thinkpad_acpi/hotkey_all_mask  /sys/devices/platform/thinkpad_acpi/hotkey_mask
+fi
